@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/5-stones/nest-oidc/compare/v2.1.0...v2.2.0) (2025-11-20)
+
+
+### Features
+
+* **auth:** add jexl transform to split a string on a separator and trim it ([b4160de](https://github.com/5-stones/nest-oidc/commit/b4160de5bb28eb16efaf1ac0861c40fec7a40e05))
+
+
+
 # [2.1.0](https://github.com/5-stones/nest-oidc/compare/v2.0.1...v2.1.0) (2025-04-17)
 
 
