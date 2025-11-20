@@ -16,8 +16,11 @@ import { RoleEvaluator } from '../interfaces';
 
 const length = (elem: any) => (elem ? elem.length : 0);
 const mapValue = (obj: any) => (obj ? obj.map((value) => ({ value })) : []);
+const splitAndTrim = (text: string, separator: string) =>
+  text.split(separator).map((value) => value.trim());
 jexl.addTransform('length', length);
 jexl.addTransform('mapValue', mapValue);
+jexl.addTransform('split', splitAndTrim);
 
 @Injectable()
 export class AuthService implements OnModuleInit {
